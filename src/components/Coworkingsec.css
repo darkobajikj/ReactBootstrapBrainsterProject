@@ -1,0 +1,25 @@
+.cowsec {
+    text-decoration: line-through;
+
+}
+.wo {
+    color: black;
+    font-weight: bold;
+    text-decoration: line-through;
+}
+.cotex {
+    font-kerning: inherit;
+    text-decoration: line-through;
+}
+.coak{
+    text-decoration: line-through;
+    background-color:#000000;
+    color: #fcd232;
+    font-weight: bold;
+}
+.sold{
+    border-radius: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    text-align: center;
+}

@@ -1,24 +1,38 @@
-import logo from './logo.svg';
+import React, { Component, ReactFragment } from 'react';
+import  Navigationbar  from './components/Navigationbar';
 import './App.css';
+import Footer from './components/Footer';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+// import pages
+import Home from './components/pages/Home';
+import  Akademii from './components/pages/Akademii';
+import Pagenotfound from './components/pages/Pagenotfound';
+import Calendar from './components/pages/Calendar';
+import Eventspace from './components/pages/Eventspace';
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Fragment>
+      <Router>
+      <Navigationbar />
+      <Switch>
+        <Route exact path="/" component={Home}></Route>
+        <Route path="/akademii" component={Akademii}></Route>
+        <Route path="/calendar" component={Calendar}></Route>
+        <Route path="/eventspace" component={Eventspace}></Route>
+        <Route component={Pagenotfound}></Route>
+      </Switch>
+      <Footer />
+      </Router>
+    </React.Fragment>
   );
 }
 

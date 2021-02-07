@@ -1,0 +1,26 @@
+.faceb {
+    color: #4267B2;
+    font-size: 30px;
+    padding:5px;
+}
+.link {
+  color:#0e76a8;
+  font-size: 30px;
+  border-radius: 5px;
+  padding:5px;
+}
+.instag {
+    color:#c13584;
+    font-size: 30px;
+    padding:5px;
+}
+.text-dark {
+  color: #202020;
+  text-decoration: none;
+  margin:10;
+  padding:5px
+}
+
+.text-dark:link {
+  text-decoration: none;
+}

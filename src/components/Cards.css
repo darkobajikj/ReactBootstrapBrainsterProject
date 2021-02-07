@@ -1,0 +1,17 @@
+.arr {
+    font-size: 60px;
+    color: black;
+    padding: 10px;
+}
+
+  .cardinner {
+      overflow: hidden;
+  }
+
+  .cardinner Card.img {
+      transition: all 1.2s ease-in;
+  }
+
+  .cardinner:hover img {
+      transform: scale(1.1);
+  }

@@ -1,0 +1,26 @@
+.ncar {
+    padding-top: 160px;
+    padding-left: 28px;
+}
+
+.nscar {
+    color: black;
+    font-weight: bold;
+}
+
+.nscartex {
+   font-kerning: inherit;
+}
+
+.nscards{
+  border: none;
+  padding: 12px;
+  text-align: center;
+  justify-content: center;
+}
+
+.nscardsimg {
+    width: 110%!important;
+    height: 150px!important;
+    object-fit: cover;
+}
